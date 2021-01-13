@@ -1,7 +1,7 @@
 <?php
 
 //namespace Tests\JkFEApiLaravel;
-namespace App\JkFEApiLaravel\tests;
+namespace Tests;
 
 
 use App\JkFEApiLaravel\AbsFEApiParamMan;

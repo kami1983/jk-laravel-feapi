@@ -20,32 +20,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8a83cbe-fd3d-4c79-8c6c-eb6aa52b7790" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/AbsFEApiParamMan.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/CFEApiDefine.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/CFEApiScheduler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/CFECreater.php.back" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/CFEErr.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/CFEOutputHandle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/CFEResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/CFEResultFailure.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/CFEResultSuccess.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/ExceptionFEApi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/IFEAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/IFEApiAssessControl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/IFEApiEvents.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/IFEApiExeture.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/IFEApiOperControl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/IFEErrControl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/IFEOutputClass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/IHaveErr.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/tests/AbsFEApiParamManTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/tests/CFEApiDefineTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/tests/CFEApiExample.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/tests/CFEErrTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/tests/CFEOutputClassExample.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/tests/CFEOutputHandleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/tests/ExceptionFEApiTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/views/man.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/feapi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FEApiLaravel/tests/AbsFEApiParamManTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/src/AbsFEApiParamManTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FEApiLaravel/tests/CFEApiDefineTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/src/CFEApiDefineTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FEApiLaravel/tests/CFEApiExample.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/CFEApiExample.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FEApiLaravel/tests/CFEErrTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/src/CFEErrTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FEApiLaravel/tests/CFEOutputClassExample.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/CFEOutputClassExample.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FEApiLaravel/tests/CFEOutputHandleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/src/CFEOutputHandleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FEApiLaravel/tests/ExceptionFEApiTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/src/ExceptionFEApiTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +59,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="docker.cancanyou.com:5000/ksoft-php73:v8" />
   <component name="ProjectId" id="1mwttNYSr0t1ut6FAue9qhpNKSB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -67,18 +75,35 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/tests/bootstrap" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/vendor" />
-      <recent name="$PROJECT_DIR$/vendor/phpunit" />
-      <recent name="$PROJECT_DIR$/src/FEApiLaravel/tests" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/tests" />
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/tests/src" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/tests/bootstrap" />
+      <recent name="$PROJECT_DIR$/src/tests/config" />
+      <recent name="$PROJECT_DIR$/src/tests" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/FEApiLaravel/tests" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="tests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/src/tests" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.tests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -88,7 +113,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610416694811</updated>
-      <workItem from="1610416703315" duration="8917000" />
+      <workItem from="1610416703315" duration="16372000" />
     </task>
     <servers />
   </component>
@@ -107,9 +132,44 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="418" y="176" width="604" height="548" key="find.popup" timestamp="1610419075888">
+    <state x="307" y="112" key="#CLI_Interpreters" timestamp="1610525813401">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="418" y="176" width="604" height="548" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1610419075888" />
+    <state x="307" y="112" key="#CLI_Interpreters/0.0.1440.900@0.0.1440.900" timestamp="1610525813401" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1610533463175">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1610533463175" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1610533463174">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1610533463174" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1610533463173">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1610533463173" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1610533463175">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1610533463175" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1610526098530">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1610526098530" />
+    <state x="625" y="81" width="604" height="548" key="find.popup" timestamp="1610531487943">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="625" y="81" width="604" height="548" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1610531487943" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php</url>
+          <line>295</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

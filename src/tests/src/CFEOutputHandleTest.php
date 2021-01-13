@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\JkFEApiLaravel;
+namespace Tests\src;
 
 use App\JkFEApiLaravel\CFEOutputHandle;
 use App\JkFEApiLaravel\tests\CFEOutputClassExample;

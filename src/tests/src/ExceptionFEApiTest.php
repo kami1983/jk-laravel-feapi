@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\JkFEApiLaravel;
+namespace Tests\src;
 
 use App\JkFEApiLaravel\ExceptionFEApi;
 use phpDocumentor\Reflection\Types\False_;

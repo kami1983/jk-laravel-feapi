@@ -1,16 +1,16 @@
 <?php
-namespace App\JkFEApiLaravel\tests;
+namespace Tests;
 
 use App\JkFEApiLaravel\IFEOutputClass;
 
 /**
  * Description of CFEOutputClassExample
  * 测试用的输出类实例
- * 
+ *
  * @author linhai
  */
 class CFEOutputClassExample implements IFEOutputClass {
-    
+
     public $public_value="public value.";
     private $_private_value="private value.";
 
@@ -22,6 +22,6 @@ class CFEOutputClassExample implements IFEOutputClass {
     public function outputFEClass(){
         return array('publicval'=>$this->public_value,'privateval'=>$this->_private_value,);
     }
-    
-    
+
+
 }

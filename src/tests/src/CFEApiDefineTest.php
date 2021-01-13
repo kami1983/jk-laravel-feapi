@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\JkFEApiLaravel;
+namespace Tests\src;
 
 use App\JkFEApiLaravel\CFEApiDefine;
 use App\JkFEApiLaravel\ExceptionFEApi;
