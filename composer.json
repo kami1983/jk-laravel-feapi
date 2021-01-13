@@ -1,0 +1,25 @@
+{
+    "name": "klib/jk-laravel-feapi",
+    "description": "一个简单的支持RESTful接口的前后端组件模块，从JKGlib框架下移植到Laravel框架",
+    "type": "library",
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "5.5.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kami1983",
+            "email": "meetcancanyou@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "KLib\\FEApiLaravel\\": "src/FEApiLaravel"
+        }
+    }
+}

@@ -1,0 +1,176 @@
+<?php
+
+namespace KLib\FEApiLaravel;
+/**
+ * Description of CFECreater
+ * 创建一个Front-end API 对象，如果对象不存在返回异常
+ *
+ * @author linhai
+ */
+class CFECreater implements IHaveErr{
+
+    //AbsFEApiParamMan
+    const CONST_ERROR_DB_OPER='1100851'; // CONST_ERROR_DB_OPER_1000851 - CONST_ERROR_DB_OPER
+    const CONST_ERROR_UNDEFINED_PARAM_NAME='1100852'; // CONST_ERROR_UNDEFINED_PARAM_NAME_1000852 - CONST_ERROR_UNDEFINED_PARAM_NAME
+    const CONST_ERROR_UNDEFINED_METHOD='1100853'; // CONST_ERROR_UNDEFINED_METHOD_1000853 - CONST_ERROR_UNDEFINED_METHOD
+    const CONST_ERROR_AUTH='1100854'; // CONST_ERROR_AUTH_1000854 - CONST_ERROR_AUTH
+
+
+
+//    const CONST_ERROR_UNDEFINED_METHOD='1000853';
+    const CONST_ERROR_CLASS_NOTFOUND='1000854';
+    const CONST_ERROR_CREATE_NEED_PREFIX_AND_NAME='1000855';
+    const CONST_ERROR_CREATE_CLASS_INHERITED='1000856';
+    const CONST_ERROR_CREATE_CLASS_IS_BANED='1000857';
+
+    const CONST_ERROR_TIMESTAMP_OF_UP_NOT_ON='1000858';
+    const CONST_ERROR_TIMESTAMP_OF_DOWN_NOT_ON='1000859';
+
+    const CONST_RESULT_STATUS_FAILURE='failure';
+    const CONST_RESULT_STATUS_SUCCESS='success';
+
+
+    const CONST_TIMESTAMP_UP_UNLIMIT=-1;
+    const CONST_TIMESTAMP_DOWN_UNLIMIT=-1;
+
+    /**
+     * 构造方法
+     */
+    public function __construct() {
+        ;
+    }
+
+    /**
+     * 获取错误描述数组
+     * @return array
+     */
+    public static function GetErrorDescArr(){
+        $error_desc_arr=array();
+
+        $error_desc_arr[self::CONST_ERROR_UNDEFINED_METHOD]='The action method is not found.';
+        $error_desc_arr[self::CONST_ERROR_CLASS_NOTFOUND]='The action class is not found.';
+        $error_desc_arr[self::CONST_ERROR_CREATE_NEED_PREFIX_AND_NAME]='Need class name and api prefix.';
+        $error_desc_arr[self::CONST_ERROR_CREATE_CLASS_INHERITED]='The API inherited error..';
+        $error_desc_arr[self::CONST_ERROR_CREATE_CLASS_IS_BANED]='The action class is baned.';
+
+        $error_desc_arr[self::CONST_ERROR_TIMESTAMP_OF_UP_NOT_ON]='Not to the on-line time.';
+        $error_desc_arr[self::CONST_ERROR_TIMESTAMP_OF_DOWN_NOT_ON]='Offline time is passed.';
+
+        //AbsFEApiParamMan
+        $error_desc_arr[self::CONST_ERROR_DB_OPER]='The database operation error.';
+        $error_desc_arr[self::CONST_ERROR_UNDEFINED_PARAM_NAME]='The param name undefined.';
+        $error_desc_arr[self::CONST_ERROR_UNDEFINED_METHOD]='The method name undefined.';
+        $error_desc_arr[self::CONST_ERROR_AUTH]='Authorization error.';
+
+        return $error_desc_arr;
+    }
+
+    /**
+     * 获取错误的描述信息
+     * @param string $error_code
+     * @return string
+     */
+    public static function GetErrorDesc($error_code){
+        $error_desc_arr=self::GetErrorDescArr();
+        return $error_desc_arr[$error_code];
+    }
+
+    /**
+     * 创建一个前端接口对象
+     * @param string $name 对象名称
+     * @param string $prefix 对象前缀，实际上无要求，但是不能为空，推荐为CFEApi
+     * @return AbsFEApiParamMan
+     */
+    public static function Create($name,$prefix='CFEApi'){
+        $name=trim($name);
+        $prefix=trim($prefix);
+
+        if('' == $prefix || '' == $name){
+            CFECreater::ThrowErr(CFECreater::CONST_NEWERR_需要API前缀);
+//            throw new ExceptionFEApi('Need class name and api prefix.', self::CONST_ERROR_CREATE_NEED_PREFIX_AND_NAME);
+        }
+
+        $name_arr=  explode('_', $name);
+
+        $classname=$prefix;
+        foreach($name_arr as $name_substr){
+            $classname.=ucfirst($name_substr);
+        }
+
+        if(!class_exists($classname)){
+            CFECreater::ThrowErr(CFECreater::CONST_NEWERR_找不到类方法,$prefix);
+//            throw new ExceptionFEApi("The {$prefix}* API not found.", self::CONST_ERROR_CLASS_NOTFOUND);
+        }
+
+        $classobj=new $classname();
+        if(!$classobj instanceof AbsFEApiParamMan){
+            CFECreater::ThrowErr(CFECreater::CONST_NEWERR_API继承错误,$prefix);
+//            throw new ExceptionFEApi("The {$prefix}* API inherited error.", self::CONST_ERROR_CREATE_CLASS_INHERITED);
+        }
+
+        return $classobj;
+    }
+
+    ##################################
+    ########   IHaveErr   ############
+    ##################################
+
+
+    const  CONST_NEWERR_数据库操作错误=CFECreater::CONST_ERROR_DB_OPER;
+    const  CONST_NEWERR_参数错误=CFECreater::CONST_ERROR_UNDEFINED_PARAM_NAME;
+    const  CONST_NEWERR_方法名称未定义=CFECreater::CONST_ERROR_UNDEFINED_METHOD;
+    const  CONST_NEWERR_找不到类方法=CFECreater::CONST_ERROR_CLASS_NOTFOUND;
+    const  CONST_NEWERR_需要API前缀=CFECreater::CONST_ERROR_CREATE_NEED_PREFIX_AND_NAME;
+    const  CONST_NEWERR_API继承错误=CFECreater::CONST_ERROR_CREATE_CLASS_INHERITED;
+    const  CONST_NEWERR_动作被禁止=CFECreater::CONST_ERROR_CREATE_CLASS_IS_BANED;
+    const  CONST_NEWERR_未到上线时间=CFECreater::CONST_ERROR_TIMESTAMP_OF_UP_NOT_ON;
+    const  CONST_NEWERR_已是离线时间=CFECreater::CONST_ERROR_TIMESTAMP_OF_DOWN_NOT_ON;
+    const  CONST_NEWERR_授权错误=CFECreater::CONST_ERROR_AUTH;
+
+    /**
+     * 捕获手册中所有涉及的异常错误处理API
+     * @return void
+     */
+//    public function fillManErr(){
+//        parent::fillManErr();
+//        self::DefineErr(); //本API相关
+//    }
+//
+//    /**
+//     * 获取错误标识
+//     * return string
+//     */
+//    public static function GetErrSign(){
+//        return __CLASS__;
+//    }
+
+    /**
+     * 定义错误
+     * return string
+     */
+    public static function DefineErr(){
+        CFEErr::Err()->addException(self::CONST_NEWERR_数据库操作错误,'The database operation error.', self::GetErrSign());
+        CFEErr::Err()->addException(self::CONST_NEWERR_参数错误,'The param name undefined.', self::GetErrSign());
+        CFEErr::Err()->addException(self::CONST_NEWERR_方法名称未定义,'The method name undefined.', self::GetErrSign());
+        CFEErr::Err()->addException(self::CONST_NEWERR_找不到类方法,'The action class is not found.', self::GetErrSign());
+        CFEErr::Err()->addException(self::CONST_NEWERR_需要API前缀,'Need class name and api prefix.', self::GetErrSign());
+        CFEErr::Err()->addException(self::CONST_NEWERR_API继承错误,'The API inherited error..', self::GetErrSign());
+        CFEErr::Err()->addException(self::CONST_NEWERR_动作被禁止,'The action class is baned..', self::GetErrSign());
+        CFEErr::Err()->addException(self::CONST_NEWERR_未到上线时间,'Not to the on-line time..', self::GetErrSign());
+        CFEErr::Err()->addException(self::CONST_NEWERR_已是离线时间,'Offline time is passed.', self::GetErrSign());
+        CFEErr::Err()->addException(self::CONST_NEWERR_授权错误,'授权错误', self::GetErrSign());
+    }
+
+     /**
+     * 抛出错误
+     * return IFEErrControl
+     */
+//     public static function ThrowErr($codenum,$attach_msg,$errsign=__CLASS__){
+//         self::DefineErr();
+//         $exception=CFEErr::Err()->getException($codenum, $errsign);
+//         $exception->setAttachMsg($attach_msg);
+//         throw $exception;
+//    }
+
+
+}
