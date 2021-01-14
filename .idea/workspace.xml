@@ -20,21 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8a83cbe-fd3d-4c79-8c6c-eb6aa52b7790" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/FEApiLaravel/Providers/CFEApiViewProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/app/Providers/AppServiceProvider.php.del" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/app/Providers/AuthServiceProvider.php.del" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/app/Providers/BroadcastServiceProvider.php.del" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/app/Providers/EventServiceProvider.php.del" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/app/Providers/RouteServiceProvider.php.del" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/bootstrap/cache/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/bootstrap/cache/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/CFEApiExample.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FEApiLaravel/CFEApiExample.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/config/feapi.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/config/feapi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/src/AbsFEApiParamManTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/src/AbsFEApiParamManTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -142,24 +140,24 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/tests/routes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/FEApiLaravel" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/tests/routes" />
-      <recent name="$PROJECT_DIR$/src/tests/bootstrap" />
-      <recent name="$PROJECT_DIR$/src/tests/config" />
-      <recent name="$PROJECT_DIR$/src/tests" />
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/tests/config" />
       <recent name="$PROJECT_DIR$/src/tests" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/tests/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/FEApiLaravel" />
+      <recent name="$PROJECT_DIR$/src/tests/routes" />
+      <recent name="$PROJECT_DIR$/src/tests/bootstrap" />
+      <recent name="$PROJECT_DIR$/src/tests/config" />
+      <recent name="$PROJECT_DIR$/src/tests" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.tests">
@@ -181,8 +179,8 @@
     </configuration>
     <list>
       <item itemvalue="PHP Remote Debug.XDebug - 7017" />
-      <item itemvalue="PHPUnit.tests" />
       <item itemvalue="PHPUnit.phpunit.xml" />
+      <item itemvalue="PHPUnit.tests" />
     </list>
     <recent_temporary>
       <list>
@@ -200,6 +198,7 @@
       <updated>1610416694811</updated>
       <workItem from="1610416703315" duration="19654000" />
       <workItem from="1610590686279" duration="4249000" />
+      <workItem from="1610602380293" duration="1509000" />
     </task>
     <servers />
   </component>
@@ -239,25 +238,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="769" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1610589400033" />
-    <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1610595030811">
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1610604358210">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1610595030811" />
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1610604358210" />
     <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1610591030177" />
-    <state width="1398" height="285" key="GridCell.Tab.0.center" timestamp="1610595030810">
+    <state width="1398" height="285" key="GridCell.Tab.0.center" timestamp="1610604358209">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1610595030810" />
+    <state width="1398" height="285" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1610604358209" />
     <state width="1398" height="304" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1610591030176" />
-    <state width="1398" height="285" key="GridCell.Tab.0.left" timestamp="1610595030810">
+    <state width="1398" height="285" key="GridCell.Tab.0.left" timestamp="1610604358208">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1610595030810" />
+    <state width="1398" height="285" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1610604358208" />
     <state width="1398" height="304" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1610591030175" />
-    <state width="1398" height="285" key="GridCell.Tab.0.right" timestamp="1610595030811">
+    <state width="1398" height="285" key="GridCell.Tab.0.right" timestamp="1610604358209">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1610595030811" />
+    <state width="1398" height="285" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1610604358209" />
     <state width="1398" height="304" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1610591030176" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1610592266201">
       <screen x="0" y="0" width="1440" height="900" />

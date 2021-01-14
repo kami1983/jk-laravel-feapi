@@ -1,9 +1,9 @@
 <?php
 
-//namespace Tests\JkFEApiLaravel;
-namespace Tests;
+namespace KLib\FEApiLaravel;
 
 
+use Illuminate\Http\Response;
 use KLib\FEApiLaravel\AbsFEApiParamMan;
 use KLib\FEApiLaravel\CFEApiDefine;
 use KLib\FEApiLaravel\CFEErr;
@@ -31,7 +31,7 @@ class CFEApiExample extends AbsFEApiParamMan
     // 调用父类构造方法
     parent::__construct($request);
     // 设置请求对象到全局
-    if($request instanceof Request) {
+    if ($request instanceof Request) {
       $this->setRequest($request);
     }
   }
@@ -109,7 +109,7 @@ class CFEApiExample extends AbsFEApiParamMan
    */
   public function getPasswordOfMan()
   {
-    return '456';
+    return '123';
   }
 
   /**
@@ -216,12 +216,17 @@ class CFEApiExample extends AbsFEApiParamMan
     $this->setParamArr($method_name, $paramarr);
     //------------------------
     $session_name = 'test_session';
-    $session_val = CJKApp::GetWebApp()->webParam()->getSessionValue($session_name);
+//    $session_val = CJKApp::GetWebApp()->webParam()->getSessionValue($session_name);
+
+    $this->getRequest()->session()->get($session_name);
+
     if (!isset($session_val)) {
-      CJKApp::GetWebApp()->webParam()->setSessionValue($session_name, rand(111111, 999999));
+//      CJKApp::GetWebApp()->webParam()->setSessionValue($session_name, rand(111111, 999999));
+      $this->getRequest()->session()->put($session_name, rand(111111, 999999));
     }
 
-    return array('SESSION_ID' => session_id(), $session_name => CJKApp::GetWebApp()->webParam()->getSessionValue($session_name),);
+//    return array('SESSION_ID' => session_id(), $session_name => CJKApp::GetWebApp()->webParam()->getSessionValue($session_name),);
+    return array('SESSION_ID' => session_id(), $session_name => $this->getRequest()->session()->get($session_name),);
   }
 
 
@@ -236,12 +241,18 @@ class CFEApiExample extends AbsFEApiParamMan
     $this->setParamArr($method_name, $paramarr);
     //------------------------
     $cookie_name = 'test_cookie';
-    $cookie_val = CJKApp::GetWebApp()->webParam()->getCookieValue($cookie_name);
+//    $cookie_val = CJKApp::GetWebApp()->webParam()->getCookieValue($cookie_name);
+    $cookie_val = $this->getRequest()->cookie($cookie_name);
+
     if (!isset($cookie_val)) {
-      CJKApp::GetWebApp()->webParam()->setCookieValue($cookie_name, rand(111111, 999999));
+//      CJKApp::GetWebApp()->webParam()->setCookieValue($cookie_name, rand(111111, 999999));
+//      $cookie = cookie($cookie_name, rand(111111, 999999),100);
+//      $response = new Response();
+//      $response->withCookie($cookie);
+//      $response
     }
 
-    return array($cookie_name => CJKApp::GetWebApp()->webParam()->getCookieValue($cookie_name),);
+    return array($cookie_name => $this->getRequest()->cookie($cookie_name),);
   }
 
   /**
@@ -269,8 +280,8 @@ class CFEApiExample extends AbsFEApiParamMan
     $this->setParamArr($method_name, $paramarr);
     //------------------------
 
-    return array('HTTP_REFERER' => $_SERVER['HTTP_REFERER'],
-      'REMOTE_ADDR' => $_SERVER['REMOTE_ADDR'],);
+    return array('HTTP_REFERER' => $this->getRequest()->headers->get('referer') ,
+      'REMOTE_ADDR' => $this->getRequest()->headers->get('addr'),);
   }
 
 

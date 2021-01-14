@@ -14,8 +14,7 @@ return [
     // apps 配置所有ic参数对应的类，也就是AbsFEApiParamMan 的相关子类
     // 配置方式 ic => 类名
     'apps' => [
-        'example' => 'Tests\CFEApiExample',
-//        'examapi' => \App\CFEExamApi::class,
+        'example' => 'KLib\FEApiLaravel\CFEApiExample',
     ],
 
 ];

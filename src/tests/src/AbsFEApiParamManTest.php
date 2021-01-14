@@ -14,7 +14,7 @@ use KLib\FEApiLaravel\IFEApiAssessControl;
 use KLib\FEApiLaravel\IFEApiEvents;
 use KLib\FEApiLaravel\IFEApiOperControl;
 use KLib\FEApiLaravel\IHaveErr;
-use Tests\CFEApiExample;
+use KLib\FEApiLaravel\CFEApiExample;
 
 //use Illuminate\Support\Facades\Request;
 use Illuminate\Http\Request;
@@ -139,13 +139,13 @@ class AbsFEApiParamManTest extends TestCase
     // 通过自动注入方式创建的Api，会有点问题，Request 中没有Session.
 //    $oper = $this->app->make(CFEApiExample::class);
 
-    /* @var $oper \KLib\FEApiLaravel\tests\CFEApiExample */
+    /* @var $oper \KLib\FEApiLaravel\CFEApiExample */
     // 必须要设置Request 对象，如果不设置后面signin 是会出现错误
-    $this->assertEquals("456", $oper->getPasswordOfMan(), '判断手册中定义的密码');
+    $this->assertEquals("123", $oper->getPasswordOfMan(), '判断手册中定义的密码');
     $this->assertFalse($oper->verifyPasswordOfMan(), '因为根本没有填写密码'); //验证失败
-    $this->assertInstanceOf(CFEApiExample::class, $oper->signinVerifyPassword("123")); //错误的密码设置
-    $this->assertFalse($oper->verifyPasswordOfMan(), "验证失败，因为密码错误，密码是456"); //
-    $this->assertInstanceOf(CFEApiExample::class, $oper->signinVerifyPassword("456")); //正确的密码设置
+    $this->assertInstanceOf(CFEApiExample::class, $oper->signinVerifyPassword("456")); //错误的密码设置
+    $this->assertFalse($oper->verifyPasswordOfMan(), "验证失败，因为密码错误，密码是123"); //
+    $this->assertInstanceOf(CFEApiExample::class, $oper->signinVerifyPassword("123")); //正确的密码设置
     $this->assertTrue($oper->verifyPasswordOfMan()); //验证成功
 
     #主题 END
