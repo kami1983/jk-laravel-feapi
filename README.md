@@ -4,6 +4,11 @@
 * 支持一个简单的自动在线API接口文档，方便前后端开发人员进行对接。
 * 该组件7.x版本支持Laravel5.5.* 版本
 
+## 版本
+
+* v7.0.1 基础版本，刚刚从JKGLib 框架中移植过来。
+* v7.0.2 新增README.md 新增 CFEApiViewProvider 类。
+
 ## 安装
 
 * 通过composer 进行安装 `composer require klib/jk-laravel-feapi` 。
