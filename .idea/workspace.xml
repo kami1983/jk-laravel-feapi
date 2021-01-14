@@ -20,31 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8a83cbe-fd3d-4c79-8c6c-eb6aa52b7790" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jk-laravel-feapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jk-laravel-feapi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FEApiLaravel/CFEApiScheduler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FEApiLaravel/CFEApiScheduler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/CFEApiExample.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/CFEApiExample.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/CFEOutputClassExample.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/CFEOutputClassExample.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/CreatesApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/CreatesApplication.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/config/auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/config/broadcasting.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/config/cache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/config/database.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/config/feapi.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/config/feapi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/config/filesystems.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/config/mail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/config/queue.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/config/services.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/src/AbsFEApiParamManTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/src/AbsFEApiParamManTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/src/CFEApiDefineTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/src/CFEApiDefineTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/src/CFEErrTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/src/CFEErrTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/src/CFEOutputHandleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/src/CFEOutputHandleTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/src/ExceptionFEApiTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/src/ExceptionFEApiTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/app/Providers/AppServiceProvider.php.del" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/app/Providers/AuthServiceProvider.php.del" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/app/Providers/BroadcastServiceProvider.php.del" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/app/Providers/EventServiceProvider.php.del" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/app/Providers/RouteServiceProvider.php.del" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/bootstrap/cache/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/bootstrap/cache/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/config/app.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +199,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610416694811</updated>
       <workItem from="1610416703315" duration="19654000" />
-      <workItem from="1610590686279" duration="3534000" />
+      <workItem from="1610590686279" duration="4249000" />
     </task>
     <servers />
   </component>
@@ -256,25 +239,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="769" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1610589400033" />
-    <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1610594154542">
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1610595030811">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1610594154542" />
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1610595030811" />
     <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1610591030177" />
-    <state width="1398" height="285" key="GridCell.Tab.0.center" timestamp="1610594154540">
+    <state width="1398" height="285" key="GridCell.Tab.0.center" timestamp="1610595030810">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1610594154540" />
+    <state width="1398" height="285" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1610595030810" />
     <state width="1398" height="304" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1610591030176" />
-    <state width="1398" height="285" key="GridCell.Tab.0.left" timestamp="1610594154540">
+    <state width="1398" height="285" key="GridCell.Tab.0.left" timestamp="1610595030810">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1610594154540" />
+    <state width="1398" height="285" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1610595030810" />
     <state width="1398" height="304" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1610591030175" />
-    <state width="1398" height="285" key="GridCell.Tab.0.right" timestamp="1610594154541">
+    <state width="1398" height="285" key="GridCell.Tab.0.right" timestamp="1610595030811">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1610594154541" />
+    <state width="1398" height="285" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1610595030811" />
     <state width="1398" height="304" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1610591030176" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1610592266201">
       <screen x="0" y="0" width="1440" height="900" />
