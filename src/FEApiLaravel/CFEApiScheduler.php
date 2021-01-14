@@ -6,7 +6,6 @@ namespace KLib\FEApiLaravel;
 
 use Illuminate\Http\Request;
 use Illuminate\Foundation\Application;
-use phpDocumentor\Reflection\DocBlock\DescriptionFactory;
 
 class CFEApiScheduler
 {

@@ -2,7 +2,7 @@
 
 namespace Tests\src;
 
-use App\JkFEApiLaravel\ExceptionFEApi;
+use KLib\FEApiLaravel\ExceptionFEApi;
 use phpDocumentor\Reflection\Types\False_;
 use Tests\TestCase;
 

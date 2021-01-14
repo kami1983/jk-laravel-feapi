@@ -20,33 +20,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8a83cbe-fd3d-4c79-8c6c-eb6aa52b7790" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/feapi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jk-laravel-feapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jk-laravel-feapi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FEApiLaravel/tests/AbsFEApiParamManTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/src/AbsFEApiParamManTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FEApiLaravel/tests/CFEApiDefineTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/src/CFEApiDefineTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FEApiLaravel/tests/CFEApiExample.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/CFEApiExample.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FEApiLaravel/tests/CFEErrTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/src/CFEErrTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FEApiLaravel/tests/CFEOutputClassExample.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/CFEOutputClassExample.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FEApiLaravel/tests/CFEOutputHandleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/src/CFEOutputHandleTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FEApiLaravel/tests/ExceptionFEApiTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/src/ExceptionFEApiTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FEApiLaravel/CFEApiScheduler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FEApiLaravel/CFEApiScheduler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/CFEApiExample.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/CFEApiExample.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/CFEOutputClassExample.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/CFEOutputClassExample.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/CreatesApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/CreatesApplication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/config/cache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/config/feapi.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/config/feapi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/src/AbsFEApiParamManTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/src/AbsFEApiParamManTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/src/CFEApiDefineTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/src/CFEApiDefineTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/src/CFEErrTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/src/CFEErrTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/src/CFEOutputHandleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/src/CFEOutputHandleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/src/ExceptionFEApiTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/src/ExceptionFEApiTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +52,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
@@ -65,7 +64,92 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="docker.cancanyou.com:5000/ksoft-php73:v8" />
+  <component name="PhpDebugGeneral" xdebug_debug_port="19001" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="cf0ca48e-aed3-429f-a791-6f0dfba346a2" name="7017-Servers" port="7017" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/var/www/html/jk-laravel-feapi" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="docker.cancanyou.com:5000/ksoft-php73:v8">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/kylekatarnls/update-helper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/mtdowling/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/symfony/thanks" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1mwttNYSr0t1ut6FAue9qhpNKSB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -75,30 +159,48 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/tests/bootstrap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/tests/routes" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/tests" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/tests/src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/tests/routes" />
       <recent name="$PROJECT_DIR$/src/tests/bootstrap" />
       <recent name="$PROJECT_DIR$/src/tests/config" />
       <recent name="$PROJECT_DIR$/src/tests" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/FEApiLaravel/tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/tests/config" />
+      <recent name="$PROJECT_DIR$/src/tests" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/tests/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.tests">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
     <configuration name="tests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="docker.cancanyou.com:5000/ksoft-php73:v8" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
       <TestRunner directory="$PROJECT_DIR$/src/tests" />
       <method v="2" />
     </configuration>
+    <configuration name="XDebug - 7017" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" filter_connections="FILTER" server_name="7017-Servers" session_id="PHPSTORM">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHP Remote Debug.XDebug - 7017" />
+      <item itemvalue="PHPUnit.tests" />
+      <item itemvalue="PHPUnit.phpunit.xml" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="PHPUnit.tests" />
@@ -113,7 +215,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610416694811</updated>
-      <workItem from="1610416703315" duration="16372000" />
+      <workItem from="1610416703315" duration="19654000" />
+      <workItem from="1610590686279" duration="3534000" />
     </task>
     <servers />
   </component>
@@ -130,44 +233,114 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="307" y="112" key="#CLI_Interpreters" timestamp="1610525813401">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="307" y="112" key="#CLI_Interpreters/0.0.1440.900@0.0.1440.900" timestamp="1610525813401" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1610533463175">
+    <state x="302" y="181" key="#Servers" timestamp="1610590471368">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1610533463175" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1610533463174">
+    <state x="302" y="181" key="#Servers/0.0.1440.900@0.0.1440.900" timestamp="1610590471368" />
+    <state x="302" y="181" key="#Test_Frameworks" timestamp="1610589941938">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1610533463174" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1610533463173">
+    <state x="302" y="181" key="#Test_Frameworks/0.0.1440.900@0.0.1440.900" timestamp="1610589941938" />
+    <state x="179" y="128" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610590477778">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1610533463173" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1610533463175">
+    <state x="179" y="128" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1610590477778" />
+    <state x="769" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1610589400033">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1610533463175" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1610526098530">
+    <state x="769" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1610589400033" />
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1610594154542">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1610526098530" />
-    <state x="625" y="81" width="604" height="548" key="find.popup" timestamp="1610531487943">
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1610594154542" />
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1610591030177" />
+    <state width="1398" height="285" key="GridCell.Tab.0.center" timestamp="1610594154540">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="625" y="81" width="604" height="548" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1610531487943" />
+    <state width="1398" height="285" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1610594154540" />
+    <state width="1398" height="304" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1610591030176" />
+    <state width="1398" height="285" key="GridCell.Tab.0.left" timestamp="1610594154540">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="285" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1610594154540" />
+    <state width="1398" height="304" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1610591030175" />
+    <state width="1398" height="285" key="GridCell.Tab.0.right" timestamp="1610594154541">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="285" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1610594154541" />
+    <state width="1398" height="304" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1610591030176" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1610592266201">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1610592266201" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.23.1440.823@0.23.1440.823" timestamp="1610591720088" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1610592266200">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1610592266200" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.23.1440.823@0.23.1440.823" timestamp="1610591720087" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1610592266199">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1610592266199" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.23.1440.823@0.23.1440.823" timestamp="1610591720086" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1610592266200">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1610592266200" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.23.1440.823@0.23.1440.823" timestamp="1610591720087" />
+    <state width="1398" height="304" key="GridCell.Tab.2.bottom" timestamp="1610592266204">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1610592266204" />
+    <state width="1398" height="304" key="GridCell.Tab.2.bottom/0.23.1440.823@0.23.1440.823" timestamp="1610591030180" />
+    <state width="1398" height="304" key="GridCell.Tab.2.center" timestamp="1610592266203">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1610592266203" />
+    <state width="1398" height="304" key="GridCell.Tab.2.center/0.23.1440.823@0.23.1440.823" timestamp="1610591030180" />
+    <state width="1398" height="304" key="GridCell.Tab.2.left" timestamp="1610592266202">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1610592266202" />
+    <state width="1398" height="304" key="GridCell.Tab.2.left/0.23.1440.823@0.23.1440.823" timestamp="1610591030179" />
+    <state width="1398" height="304" key="GridCell.Tab.2.right" timestamp="1610592266203">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1610592266203" />
+    <state width="1398" height="304" key="GridCell.Tab.2.right/0.23.1440.823@0.23.1440.823" timestamp="1610591030180" />
+    <state x="539" y="380" key="NewPhpFileDialog" timestamp="1610592758849">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1610592758849" />
+    <state x="267" y="65" key="SettingsEditor" timestamp="1610590722884">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="267" y="65" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1610590722884" />
+    <state x="625" y="81" width="604" height="548" key="find.popup" timestamp="1610593649010">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="625" y="81" width="604" height="548" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1610593649010" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/tests/bootstrap/index.php</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php</url>
           <line>295</line>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

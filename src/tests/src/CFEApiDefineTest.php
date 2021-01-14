@@ -2,8 +2,8 @@
 
 namespace Tests\src;
 
-use App\JkFEApiLaravel\CFEApiDefine;
-use App\JkFEApiLaravel\ExceptionFEApi;
+use KLib\FEApiLaravel\CFEApiDefine;
+use KLib\FEApiLaravel\ExceptionFEApi;
 use Tests\TestCase;
 
 class CFEApiDefineTest extends TestCase

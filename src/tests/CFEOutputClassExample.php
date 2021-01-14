@@ -1,7 +1,8 @@
 <?php
 namespace Tests;
 
-use App\JkFEApiLaravel\IFEOutputClass;
+use KLib\FEApiLaravel\IFEOutputClass;
+
 
 /**
  * Description of CFEOutputClassExample

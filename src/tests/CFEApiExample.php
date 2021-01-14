@@ -4,9 +4,9 @@
 namespace Tests;
 
 
-use App\JkFEApiLaravel\AbsFEApiParamMan;
-use App\JkFEApiLaravel\CFEApiDefine;
-use App\JkFEApiLaravel\CFEErr;
+use KLib\FEApiLaravel\AbsFEApiParamMan;
+use KLib\FEApiLaravel\CFEApiDefine;
+use KLib\FEApiLaravel\CFEErr;
 use Illuminate\Http\Request;
 
 

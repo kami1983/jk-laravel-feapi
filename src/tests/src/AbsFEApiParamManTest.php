@@ -2,18 +2,19 @@
 
 namespace Tests\src;
 
-use App\JkFEApiLaravel\AbsFEApiParamMan;
 
-use App\JkFEApiLaravel\CFEApiDefine;
-use App\JkFEApiLaravel\CFEApiScheduler;
-use App\JkFEApiLaravel\CFEResult;
-use App\JkFEApiLaravel\CFEResultSuccess;
-use App\JkFEApiLaravel\ExceptionFEApi;
-use App\JkFEApiLaravel\IFEApiAssessControl;
-use App\JkFEApiLaravel\IFEApiEvents;
-use App\JkFEApiLaravel\IFEApiOperControl;
-use App\JkFEApiLaravel\IHaveErr;
-use App\JkFEApiLaravel\tests\CFEApiExample;
+use KLib\FEApiLaravel\AbsFEApiParamMan;
+
+use KLib\FEApiLaravel\CFEApiDefine;
+use KLib\FEApiLaravel\CFEApiScheduler;
+use KLib\FEApiLaravel\CFEResult;
+use KLib\FEApiLaravel\CFEResultSuccess;
+use KLib\FEApiLaravel\ExceptionFEApi;
+use KLib\FEApiLaravel\IFEApiAssessControl;
+use KLib\FEApiLaravel\IFEApiEvents;
+use KLib\FEApiLaravel\IFEApiOperControl;
+use KLib\FEApiLaravel\IHaveErr;
+use Tests\CFEApiExample;
 
 //use Illuminate\Support\Facades\Request;
 use Illuminate\Http\Request;
@@ -32,12 +33,12 @@ class AbsFEApiParamManTest extends TestCase
 
 //    $oper = new CFEApiExample();
     $oper = $this->app->make(CFEApiExample::class);
-    $this->assertInstanceOf("App\JkFEApiLaravel\AbsFEApiParamMan", $oper);
+    $this->assertInstanceOf(AbsFEApiParamMan::class, $oper);
     //IFEApiAssessControl, IFEApiOperControl, IFEApiEvents,IHaveErr
-    $this->assertInstanceOf("App\JkFEApiLaravel\IFEApiOperControl", $oper);
-    $this->assertInstanceOf("App\JkFEApiLaravel\IFEApiAssessControl", $oper);
-    $this->assertInstanceOf("App\JkFEApiLaravel\IFEApiEvents", $oper);
-    $this->assertInstanceOf("App\JkFEApiLaravel\IHaveErr", $oper);
+    $this->assertInstanceOf(IFEApiOperControl::class, $oper);
+    $this->assertInstanceOf(IFEApiAssessControl::class, $oper);
+    $this->assertInstanceOf(IFEApiEvents::class, $oper);
+    $this->assertInstanceOf(IHaveErr::class, $oper);
 
     // 返回测试类实例，给其他测试方法使用。
     return $oper;
@@ -138,7 +139,7 @@ class AbsFEApiParamManTest extends TestCase
     // 通过自动注入方式创建的Api，会有点问题，Request 中没有Session.
 //    $oper = $this->app->make(CFEApiExample::class);
 
-    /* @var $oper \App\JkFEApiLaravel\tests\CFEApiExample */
+    /* @var $oper \KLib\FEApiLaravel\tests\CFEApiExample */
     // 必须要设置Request 对象，如果不设置后面signin 是会出现错误
     $this->assertEquals("456", $oper->getPasswordOfMan(), '判断手册中定义的密码');
     $this->assertFalse($oper->verifyPasswordOfMan(), '因为根本没有填写密码'); //验证失败

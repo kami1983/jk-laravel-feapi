@@ -3,8 +3,9 @@
 namespace Tests\src;
 
 
-use App\JkFEApiLaravel\CFEErr;
-use phpDocumentor\Reflection\Types\False_;
+
+
+use KLib\FEApiLaravel\CFEErr;
 use Tests\TestCase;
 
 class CFEErrTest extends TestCase

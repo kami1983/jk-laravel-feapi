@@ -2,8 +2,8 @@
 
 namespace Tests\src;
 
-use App\JkFEApiLaravel\CFEOutputHandle;
-use App\JkFEApiLaravel\tests\CFEOutputClassExample;
+use KLib\FEApiLaravel\CFEOutputHandle;
+use Tests\CFEOutputClassExample;
 use Tests\TestCase;
 
 class CFEOutputHandleTest extends TestCase
