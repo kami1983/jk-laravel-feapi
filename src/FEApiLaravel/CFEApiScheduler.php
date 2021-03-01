@@ -80,7 +80,10 @@ class CFEApiScheduler
 
         $feapi_obj = self::CreateApi($request, $app) ;
         $im = trim($request->get('im', ''));
+        $meta = $request->get('meta', []);
         $fps = $request->get('fps', []);
+
+        $feapi_obj->setMeta($meta);
 
         /* @var $feapi_obj AbsFEApiParamMan */
         return $feapi_obj->callApi($im, $fps);

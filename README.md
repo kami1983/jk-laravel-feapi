@@ -4,8 +4,13 @@
 * 支持一个简单的自动在线API接口文档，方便前后端开发人员进行对接。
 * 该组件7.x版本支持Laravel5.5.* 版本
 
-## 版本
+## 版本doc
 
+* v7.1.1 版本，修正上一个版本的一些问题。
+* v7.1.0 版本，AbsFEApiParamMan 方法中新增 setMeta() getMeta() 方法
+```
+该方法可以从request 对象中接收 meta get参数，用于后续拓展API功能，这个方法会通常会返回一个键值数组。
+```
 * v7.0.1 基础版本，刚刚从JKGLib 框架中移植过来。
 * v7.0.2 新增README.md 新增 CFEApiViewProvider 类。
 

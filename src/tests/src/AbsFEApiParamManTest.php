@@ -243,7 +243,6 @@ class AbsFEApiParamManTest extends TestCase
 
     //故意搞错一个参数，实际上并没有定义参数c，只有参数a、b
     $this->assertEquals(3, $oper->callApi('addnum', array('a' => 1, 'c' => 2,)));//
-
   }
 
   /**

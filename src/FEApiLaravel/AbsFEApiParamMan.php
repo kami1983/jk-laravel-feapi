@@ -37,6 +37,8 @@ abstract class AbsFEApiParamMan implements IFEApiAssessControl, IFEApiOperContro
 
   protected $_apiname = __CLASS__;
 
+  protected $_meta_arr = [];
+
   /**
    * 构造方法
    */
@@ -60,6 +62,23 @@ abstract class AbsFEApiParamMan implements IFEApiAssessControl, IFEApiOperContro
     // 初始化Api接口信息
     $this->apiDefine();
     return $this;
+  }
+
+  /**
+   * 设置Meta信息
+   * @param array $meta 设置的Meta 值
+   * @return AbsFEApiParamMan
+   */
+  public function setMeta(array $meta) {
+    $this->_meta_arr= $meta;
+  }
+
+  /**
+   * 获取Meta 值。
+   * @return array
+   */
+  public function getMeta() {
+    return $this->_meta_arr;
   }
 
   /**
