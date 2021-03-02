@@ -43,7 +43,7 @@ class CFEApiScheduler
      * @param Application $app
      * @return AbsFEApiParamMan
      */
-    public static function CreateApi(Request $request, Application $app) {
+    public static function CreateApi(Request $request, Application $app, array $construct_params = []) {
         CFEErr::AddException(__CLASS__, self::CONST_ERROR_CLASS_NOTFOUND, 'Need ic param.');
         CFEErr::AddException(__CLASS__, self::CONST_ERROR_UNDEFINED_METHOD, 'Need im param.');
 
@@ -66,7 +66,7 @@ class CFEApiScheduler
 //        $feapi_obj = $feapi_reflection->newInstance();
 
         // 通过注入方式创建API
-        $feapi_obj = $app->make($feapi_name);
+        $feapi_obj = $app->make($feapi_name, $construct_params);
         $feapi_obj->setApiName($ic);
         return $feapi_obj;
     }
@@ -75,10 +75,10 @@ class CFEApiScheduler
      * 用来执行调度的入口方法，接收一个 $call_param 可变参数数组，来决定Api具体执行的类。
      * @param array $call_param
      */
-    public static function Call(Request $request, Application $app)
+    public static function Call(Request $request, Application $app, array $construct_params = [])
     {
 
-        $feapi_obj = self::CreateApi($request, $app) ;
+        $feapi_obj = self::CreateApi($request, $app, $construct_params) ;
         $im = trim($request->get('im', ''));
         $meta = $request->get('meta', []);
         $fps = $request->get('fps', []);
@@ -93,11 +93,11 @@ class CFEApiScheduler
      * 获取API返回结果这个结果是一个JSON数据
      * @param array $call_param
      */
-    public static function GetResult(Request $request, Application $app)
+    public static function GetResult(Request $request, Application $app, array $construct_params = [])
     {
 
         try {
-            $result = self::Call($request, $app);
+            $result = self::Call($request, $app, $construct_params);
             $resultobj = new CFEResultSuccess($result, $request->method());
 //            $resultobj->setMethod($request->method());
             return json_encode($resultobj);
