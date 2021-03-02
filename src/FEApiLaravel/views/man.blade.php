@@ -8,6 +8,12 @@ use KLib\FEApiLaravel\CFEOutputHandle;
 
 
 /* @var $api_routername string *///API 所在的路由名称
+/* @var $api_routerparam array *///API 所在的参数数组
+
+if(!is_array($api_routerparam)) {
+  $api_routerparam= [];
+}
+
 $api_name = $api_obj->getApiName();//$this->webparamObj->getGetValue('api_name');
 $error_arr = $api_obj->getDefineErrors();
 $route_name = $api_routername;
@@ -41,7 +47,7 @@ $exception_feapi_arr = CFEErr::GetErrList();
   <h2>Api - <?php echo ucfirst($api_name);?></h2>
   <div class="alert alert-success" role="alert">
     <?php echo $api_obj->definedDesc(); ?>
-    当前请求头：<?php echo htmlentities(route($route_name)); ?>
+    当前请求头：<?php echo htmlentities(route($route_name, $api_routerparam)); ?>
   </div>
   <div class="alert alert-warning" role="alert">
     默认情况下接口不开启JSONP 和CORS ，如果要使用这些功能请与开发人员沟通，另外仅fps 参数支持GET/POST 请求，其余参数仅支持GET 请求，但是JSONP 并不支持POST 请求，也请注意CORS

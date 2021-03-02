@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e8a83cbe-fd3d-4c79-8c6c-eb6aa52b7790" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FEApiLaravel/CFEApiScheduler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FEApiLaravel/CFEApiScheduler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FEApiLaravel/views/man.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FEApiLaravel/views/man.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +200,7 @@
       <workItem from="1610614112936" duration="1186000" />
       <workItem from="1614593650403" duration="1659000" />
       <workItem from="1614649318750" duration="344000" />
-      <workItem from="1614652999985" duration="450000" />
+      <workItem from="1614652999985" duration="2657000" />
     </task>
     <servers />
   </component>
@@ -245,25 +244,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="769" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1610589400033" />
-    <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1610615344548">
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1614653457260">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1610615344548" />
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614653457260" />
     <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1610591030177" />
-    <state width="1398" height="285" key="GridCell.Tab.0.center" timestamp="1610615344547">
+    <state width="1398" height="285" key="GridCell.Tab.0.center" timestamp="1614653457258">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1610615344547" />
+    <state width="1398" height="285" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1614653457258" />
     <state width="1398" height="304" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1610591030176" />
-    <state width="1398" height="285" key="GridCell.Tab.0.left" timestamp="1610615344547">
+    <state width="1398" height="285" key="GridCell.Tab.0.left" timestamp="1614653457257">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1610615344547" />
+    <state width="1398" height="285" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1614653457257" />
     <state width="1398" height="304" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1610591030175" />
-    <state width="1398" height="285" key="GridCell.Tab.0.right" timestamp="1610615344548">
+    <state width="1398" height="285" key="GridCell.Tab.0.right" timestamp="1614653457259">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1610615344548" />
+    <state width="1398" height="285" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1614653457259" />
     <state width="1398" height="304" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1610591030176" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1610592266201">
       <screen x="0" y="0" width="1440" height="900" />
@@ -313,10 +312,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="157" y="65" width="1107" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1610614728612" />
-    <state x="625" y="81" width="604" height="548" key="find.popup" timestamp="1610593649010">
+    <state x="625" y="81" width="604" height="548" key="find.popup" timestamp="1614666400625">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="625" y="81" width="604" height="548" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1610593649010" />
+    <state x="625" y="81" width="604" height="548" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1614666400625" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
