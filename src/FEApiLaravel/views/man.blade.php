@@ -105,7 +105,7 @@ $exception_feapi_arr = CFEErr::GetErrList();
       <td class="warning" colspan="3">
         <div>
           调用地址：<span
-            style="color:#a94442;"><?php echo route($route_name, []); ?></span>?ic=<?php echo $api_name; ?>&AMP;im=<?php echo $method; ?>
+            style="color:#a94442;"><?php echo route($route_name, $api_routerparam); ?></span>?ic=<?php echo $api_name; ?>&AMP;im=<?php echo $method; ?>
           &nbsp;&nbsp;
           请求参数：<?php echo $param_str; ?>
         </div>
@@ -199,7 +199,7 @@ $exception_feapi_arr = CFEErr::GetErrList();
     当前文档需要登录后才能查看。
   </div>
   <h2>Input password</h2>
-  <form action="<?php echo route('feman', ['ic' => $api_name]); ?>" method="POST">
+  <form action="{{Request::path()}}" method="POST">
     {{ csrf_field() }}
     <table class="table table-bordered">
       <tr>
