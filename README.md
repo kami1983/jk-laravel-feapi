@@ -6,6 +6,7 @@
 
 ## 版本doc
 
+* v7.2.3 版本，修正 7.2.2 版本的man.blade.php view 的一些问题
 * v7.2.2 版本，修正 7.2.0 版本的man.blade.php view 的一些问题
 * v7.2.0 版本，CFEApiScheduler::GetResult($request, $app, $parma_arr ) 新增 $parma_arr 从而可以给初始化操作添加构造参数
 * v7.1.1 版本，修正上一个版本的一些问题。

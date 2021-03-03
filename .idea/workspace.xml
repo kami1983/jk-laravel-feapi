@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8a83cbe-fd3d-4c79-8c6c-eb6aa52b7790" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FEApiLaravel/views/man.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FEApiLaravel/views/man.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +199,7 @@
       <workItem from="1610614112936" duration="1186000" />
       <workItem from="1614593650403" duration="1659000" />
       <workItem from="1614649318750" duration="344000" />
-      <workItem from="1614652999985" duration="3843000" />
+      <workItem from="1614652999985" duration="3891000" />
     </task>
     <servers />
   </component>
